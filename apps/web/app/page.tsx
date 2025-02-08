@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Card } from "@repo/ui/card";
+import Uploader from "../components/Uploader";
 
 function Gradient({
   conic,
@@ -21,6 +20,9 @@ function Gradient({
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24"></main>
+    <main className=" ">
+      {/* <Chat /> */}
+      <Uploader />
+    </main>
   );
 }
